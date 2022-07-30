@@ -1,0 +1,159 @@
+/* Para todo */
+html,
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:'Roboto', sans-serif;;
+}
+ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+a {
+    color: azure;
+    text-decoration: none;
+}
+a:hover {
+    color: #C6C6C6
+}
+body {
+    background-color: #212529;
+    color: azure;
+}
+/* header*/
+.menu {
+    display: flex;
+    background-color: #212529;
+}
+.menu_izquierda {
+    display: flex;
+    flex: auto;
+    align-items: center;
+    justify-content: left;
+}
+.logo {
+    width: 200px;
+    padding-left: 10%;
+    padding-bottom: 0.7%;
+}
+.bienvenido {
+    display: flex;
+    justify-content: left;
+    color: azure;
+    font-size: 25px;
+    padding-left: 3%;
+}
+.menu_derecha {
+    padding-left: 25%;
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 18px;
+}
+.submenu {
+    background-color: #30363c;
+}
+.submenu_ul {
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 0.7%;
+    padding-top: 0.7%;
+    font-size: 18px;
+    font-weight: 500;
+}
+/* termina header empieza el main*/
+.div_main{
+    background-color: #212529;
+}
+.div_banner{
+    background-color:#212529;;
+}
+.banner {
+    width: 100%;
+}
+.imagen_main_destacados{
+    width: 100%;
+}
+.imagen_main{
+    width: 95%;
+}
+.section_main{
+    margin-top: 1%;
+    background-color: #212529;
+    color: azure;
+}
+.h2_main{
+    padding-left: 1%;
+}
+.grid {
+    background-color: #212529;
+    display: grid;
+    height: 315px;
+    margin: 1%;
+    justify-items: center;
+    align-items: center;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 300px;
+    grid-template-areas: "destacados oferta1 oferta2 oferta3 oferta4";
+    grid-column-gap: 50px;
+}
+.grid_border {
+    border: 2px solid azure;
+    border-width: 1;
+}
+.grid1 {
+    grid-area:destacados;
+}
+.grid2 {
+    grid-area: oferta1;
+}
+.grid3 {
+    grid-area: oferta2;
+}
+.grid4 {
+    grid-area: oferta3;
+}
+.grid5 {
+    grid-area: oferta4;
+}
+/* comienzo footer*/
+.menu-footer {
+    background-color: #212529;
+    color: azure;;
+}
+.menu-subfooter {
+    background-color: #30363c;
+    display: flex;
+    justify-content: space-around;
+    font-size: 18px;
+    padding: 0.7%;
+}
+.footer_section{
+    display: flex;
+    justify-content: space-around;
+    padding: 0.7%;
+}
+.redes{
+    display: flex;
+    flex-direction: column;
+}
+/* Media query*/
+
+/*Mobile*/
+@media only screen and (max-width: 480px) {
+.imagenes_body {
+    width: 30%;}
+.imagen_destacados {
+    width: 30%;}
+}
+/* Tablet*/
+@media only screen and (min-width:481px) and (max-width: 960px){
+
+}
+/* Desktop */
+@media only screen and (min-width: 961px){
+
+}
