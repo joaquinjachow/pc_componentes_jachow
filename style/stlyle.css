@@ -25,13 +25,11 @@ body {
 /* header*/
 .menu {
     display: flex;
-    background-color: #212529;
 }
 .menu_izquierda {
     display: flex;
     flex: auto;
     align-items: center;
-    justify-content: left;
 }
 .logo {
     width: 200px;
@@ -39,9 +37,6 @@ body {
     padding-bottom: 0.7%;
 }
 .bienvenido {
-    display: flex;
-    justify-content: left;
-    color: azure;
     font-size: 25px;
     padding-left: 3%;
 }
@@ -65,12 +60,6 @@ body {
     font-weight: 500;
 }
 /* termina header empieza el main*/
-.div_main{
-    background-color: #212529;
-}
-.div_banner{
-    background-color:#212529;;
-}
 .banner {
     width: 100%;
 }
@@ -80,29 +69,21 @@ body {
 .imagen_main{
     width: 95%;
 }
-.section_main{
-    margin-top: 1%;
-    background-color: #212529;
-    color: azure;
-}
-.h2_main{
+.titulo_main{
     padding-left: 1%;
+    margin-top: 1%;
 }
-.grid {
-    background-color: #212529;
+.grid_main {
     display: grid;
-    height: 315px;
-    margin: 1%;
-    justify-items: center;
     align-items: center;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: 300px;
     grid-template-areas: "destacados oferta1 oferta2 oferta3 oferta4";
     grid-column-gap: 50px;
+    margin: 1%;
+    margin-bottom: 2%;
 }
-.grid_border {
+.grid_border_main {
     border: 2px solid azure;
-    border-width: 1;
 }
 .grid1 {
     grid-area:destacados;
@@ -119,11 +100,63 @@ body {
 .grid5 {
     grid-area: oferta4;
 }
-/* comienzo footer*/
-.menu-footer {
-    background-color: #212529;
-    color: azure;;
+.grid_componentes{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-column-gap: 3%;
+    margin: 1%;
+    margin-bottom: 7%;
 }
+.grid_border_componentes {
+    border: 2px solid azure;
+}
+.titulo_componentes {
+    margin: 1%;
+    margin-top: 8%;
+}
+.grid_monitores {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-column-gap: 3%;
+    margin: 1%;
+    margin-bottom: 7%;
+}
+.grid_border_monitores {
+    border: 2px solid azure;
+}
+.titulo_monitores {
+    margin: 1%;
+    margin-top: 8%;
+}
+.grid_notebooks {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-column-gap: 3%;
+    margin: 1%;
+    margin-bottom: 7%;
+}
+.grid_border_notebooks {
+    border: 2px solid azure;
+}
+.titulo_notebooks {
+    margin: 1%;
+    margin-top: 8%;
+}
+.grid_perifericos {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-column-gap: 3%;
+    margin: 1%;
+    margin-bottom: 7%;
+}
+.grid_border_perifericos {
+    border: 2px solid azure;
+}
+.titulo_perifericos {
+    margin: 1%;
+    margin-top: 8%;
+}
+/* comienzo footer*/
 .menu-subfooter {
     background-color: #30363c;
     display: flex;
