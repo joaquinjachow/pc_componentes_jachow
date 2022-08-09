@@ -7,6 +7,7 @@
         <link href="link rel="preconnect href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
         <link rel="stylesheet" href="style/stlyle.css">
     </head>
     <body>
@@ -23,11 +24,11 @@
             </nav>
             <nav class="submenu">
                 <ul class="submenu_ul">
-                    <li><a href="#"> Inicio </a> </li>
-                    <li><a href="pages/componentes.html">Componentes</a></li>
-                    <li><a href="pages/monitores.html">Monitores</a></li>
-                    <li><a href="pages/notebooks.html">Notebooks</a></li>
-                    <li><a href="pages/perifericos.html">Perifericos </a></li>
+                    <li><a class="hover" href="#"> Inicio </a> </li>
+                    <li><a class="hover" href="pages/componentes.html">Componentes</a></li>
+                    <li><a class="hover" href="pages/monitores.html">Monitores</a></li>
+                    <li><a class="hover" href="pages/notebooks.html">Notebooks</a></li>
+                    <li><a class="hover" href="pages/perifericos.html">Perifericos </a></li>
                 </ul>
             </nav>
         </header>
@@ -37,7 +38,7 @@
             </div>
         <section>
             <h2 class="titulo_main">Ofertas Semanales</h2>
-            <div class="grid_main">
+            <div class="grid_main" data-aos="fade-left" data-aos-duration="1000">
                 <div class="grid1 grid_border_main"> 
                     <img class="imagen_main_destacados" src="photos/img-destacados.png" alt="destacados" title="destacados">
                 </div>
@@ -88,8 +89,8 @@
             <div>
                 <h2>Redes Sociales</h2>
                 <div class="redes">
-                        <a href="https://www.instagram.com" target="_blank">instagram</a>
-                        <a href="https://www.facebook.com" target="_blank">Facebook</a>
+                    <a href="https://www.instagram.com" target="_blank">instagram</a>
+                    <a href="https://www.facebook.com" target="_blank">Facebook</a>
                 </div>
             </div>
         </section>
@@ -97,5 +98,9 @@
             <small class="copyright">Copyright Joaquin Jachow</small>
         </div>
         </footer>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+            AOS.init();
+        </script>
     </body>
 </html>
