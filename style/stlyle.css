@@ -20,18 +20,6 @@ a:hover {
     color: #C6C6C6;
     transform: scale(1.1);
 }
-.hover {
-    color: #0000;
-    background: 
-    linear-gradient(90deg,#1095c1 50%,#000 0) 
-    var(--_p,100%)/200% no-repeat;
-    -webkit-background-clip: text;
-            background-clip: text;
-    transition: .7s;
-}
-.hover:hover {
-    --_p: 0%;
-}
 body {
     background-color: #212529;
     color: azure;
@@ -62,6 +50,11 @@ body {
     justify-content: space-evenly;
     font-size: 18px;
 }
+.dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0;
+    color: ;
+}
 .submenu {
     background-color: #30363c;
 }
@@ -74,9 +67,6 @@ body {
     font-weight: 500;
 }
 /* termina header empieza el main*/
-.banner {
-    width: 100%;
-}
 .imagen_main_destacados{
     width: 100%;
 }
@@ -183,9 +173,8 @@ body {
     justify-content: space-around;
     padding: 0.7%;
 }
-.redes{
-    display: flex;
-    flex-direction: column;
+.boton {
+    margin-left: 18%;
 }
 /* Media query*/
 
@@ -238,11 +227,6 @@ body {
 }
 .footer_section, h2{
     font-size: 10px;
-}
-.redes{
-    display: flex;
-    flex-direction: column;
-    font-size: 7px;
 }
 .form {
     display: none;
@@ -301,11 +285,6 @@ body {
     .footer_section, h2{
         font-size: 10px;
     }
-    .redes{
-        display: flex;
-        flex-direction: column;
-        font-size: 7px;
-    }
     .form {
         display: none;
     }
@@ -362,11 +341,6 @@ body {
     }
     .footer_section, h2{
         font-size: 10px;
-    }
-    .redes{
-        display: flex;
-        flex-direction: column;
-        font-size: 7px;
     }
     .form {
         display: none;
