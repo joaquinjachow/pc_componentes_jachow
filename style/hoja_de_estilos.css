@@ -26,6 +26,12 @@ body {
   background-color: #212529;
   color: azure; }
 
+.titulo_contacto {
+  display: none; }
+
+.mapa_contacto {
+  display: none; }
+
 /* header*/
 .logo {
   width: 210px;
@@ -56,8 +62,7 @@ body {
 
 .titulo_componentes {
   font-size: 40px;
-  margin: 1%;
-  margin-top: 8%; }
+  margin: 1%; }
 
 .grid_componentes {
   display: grid;
@@ -115,6 +120,37 @@ body {
   .grid_perifericos .grid_border_perifericos {
     border: 2px solid azure; }
 
+.main_sobre_nosotros p {
+  font-family: "Segoe UI", "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: bold;
+  padding: 1em 1em 0 3em; }
+
+.main_sobre_nosotros h2 {
+  font-size: 40px;
+  padding: 1em 0 1em 1.5em; }
+
+h3 {
+  font-size: 26px; }
+
+.lista_preguntas {
+  list-style-type: disc; }
+
+.main_componentes {
+  background-color: #FFFFFF; }
+
+.card .cardbody {
+  color: #F6F6F6; }
+
+.card-title {
+  color: #969696; }
+
+.card-text {
+  color: #212529; }
+
+.titulo_preguntas_frecuentes {
+  text-align: center;
+  font-size: 28px; }
+
 /* comienzo footer*/
 .menu-subfooter {
   background-color: #30363c;
@@ -131,11 +167,21 @@ body {
 .boton {
   margin-left: 18%; }
 
+.card {
+  margin: 3%; }
+
+.main_componentes {
+  display: flex; }
+
 /* aca empieza los medias querys*/
 /*Mobile S*/
 @media only screen and (max-width: 374px) {
   * {
     font-size: 8px; }
+  li {
+    font-size: 9px; }
+  h3 {
+    font-size: 12px; }
   .logo {
     width: 100px; }
   .imagen_main {
@@ -175,6 +221,8 @@ body {
     width: 100%; }
     .footer_section h2 {
       font-size: 10px; }
+    .footer_section h3 {
+      font-size: 10px; }
   .form {
     display: none; }
   .mapa {
@@ -182,12 +230,18 @@ body {
     height: 11%;
     padding-left: 3%; }
   .redes {
-    width: 30%; } }
+    width: 30%; }
+  .titulo_preguntas_frecuentes {
+    font-size: 10px; } }
 
 /*Mobile M*/
 @media only screen and (min-width: 375px) and (max-width: 424px) {
   * {
     font-size: 11px; }
+  li {
+    font-size: 11px; }
+  h3 {
+    font-size: 15px; }
   .menu
 .izquierda .logo {
     width: 60px; }
@@ -242,6 +296,8 @@ body {
 @media only screen and (min-width: 425px) and (max-width: 767px) {
   * {
     font-size: 13px; }
+  h3 {
+    font-size: 18px; }
   .menu
 .izquierda .logo {
     width: 70px; }
@@ -347,6 +403,10 @@ body {
 @media only screen and (min-width: 2560px) {
   * {
     font-size: 16px; }
+  li {
+    font-size: 20px; }
+  h3 {
+    font-size: 30px; }
   .nav-link {
     font-size: 35px; }
   h2 {

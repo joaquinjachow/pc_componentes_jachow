@@ -29,6 +29,12 @@ body {
     background-color: #212529;
     color: $color;
 }
+.titulo_contacto {
+    display: none;
+}
+.mapa_contacto {
+    display: none;
+}
 /* header*/
 
 .logo {
@@ -64,7 +70,6 @@ body {
 .titulo_componentes {
     font-size: 40px;
     margin: 1%;
-    margin-top: 8%;
 }
 .grid_componentes {
     display: grid;
@@ -130,7 +135,37 @@ body {
         border: 2px solid $color;
     }
 }
-
+.main_sobre_nosotros p {
+    font-family: "Segoe UI", "Open Sans", "Helvetica Neue", sans-serif;
+    font-weight: bold;
+    padding: 1em 1em 0 3em;
+}
+.main_sobre_nosotros h2 {
+    font-size: 40px;
+    padding: 1em 0 1em 1.5em;
+}
+h3 {
+    font-size: 26px;
+}
+.lista_preguntas {
+    list-style-type: disc;
+}
+.main_componentes {
+background-color: #FFFFFF;
+}
+.card .cardbody {
+    color: #F6F6F6;
+}
+.card-title {
+    color: #969696;
+}
+.card-text {
+    color: #212529;
+}
+.titulo_preguntas_frecuentes {
+    text-align: center;
+    font-size: 28px;
+}
 /* comienzo footer*/
 .menu-subfooter {
     background-color: #30363c;
@@ -146,6 +181,12 @@ body {
 }
 .boton {
     margin-left: 18%;
+}
+.card {
+    margin: 3%
+}
+.main_componentes {
+    display: flex
 }
 /* aca empieza los medias querys*/
 @import "mquery.scss";

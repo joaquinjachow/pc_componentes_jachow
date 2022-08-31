@@ -3,6 +3,12 @@
     * {
         font-size: 8px;
     }
+li {
+    font-size: 9px;
+}
+h3{
+    font-size: 12px;
+}
 .logo{
     width: 100px;
 }
@@ -50,7 +56,10 @@
     justify-content: space-evenly;
     width: 100%;
     h2 {
-    font-size: 10px;
+        font-size: 10px;
+    }
+    h3 {
+        font-size: 10px;
     }
 }
 .form {
@@ -64,11 +73,20 @@
 .redes {
     width: 30%;
 }
+.titulo_preguntas_frecuentes {
+    font-size: 10px;
+}
 }
 /*Mobile M*/
 @media only screen and (min-width:375px) and (max-width: 424px) {
     * {
         font-size: 11px;
+    }
+    li {
+        font-size: 11px;
+    }
+    h3{
+        font-size: 15px;
     }
     .menu
     .izquierda{
@@ -139,6 +157,9 @@
 @media only screen and (min-width:425px) and (max-width: 767px) {
     * {
         font-size: 13px;
+    }
+    h3{
+        font-size: 18px;
     }
     .menu
     .izquierda{
@@ -279,6 +300,12 @@
 @media only screen and (min-width: 2560px) {
     * {
         font-size: 16px;
+    }
+    li {
+        font-size: 20px;
+    }
+    h3{
+        font-size: 30px;
     }
     .nav-link {
         font-size: 35px;
