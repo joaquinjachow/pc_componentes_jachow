@@ -71,6 +71,10 @@ body {
     font-size: 40px;
     margin: 1%;
 }
+.contenedor_componentes {
+    column-gap: 4%;
+    margin: 1%;
+}
 .grid_componentes {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
@@ -181,9 +185,6 @@ background-color: #FFFFFF;
 }
 .boton {
     margin-left: 18%;
-}
-.card {
-    margin: 3%
 }
 .main_componentes {
     display: flex
