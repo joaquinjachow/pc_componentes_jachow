@@ -3,79 +3,64 @@
     * {
         font-size: 8px;
     }
-li {
-    font-size: 9px;
-}
-h3{
-    font-size: 12px;
-}
-.logo{
-    width: 100px;
-}
-.imagen_main {
-    width: 90%;
-}
-.grid_main {
-    padding-bottom: 1.3%;
-}
-.card-text {
-    font-size: 15px;
-}
-.titulo_main {
-    padding-left: 2%;
-    padding-top: 1.5%;
-    font-size: 23px;
-    text-align: center;
-}
-.grid_componentes {
-    grid-template-columns: 1fr;
-    width: 50%;
-    margin: 5% 25%;
-    grid-row-gap: 10px;
-}
-.grid_monitores {
-    grid-template-columns: 1fr;
-    width: 50%;
-    margin: 5% 25%;
-    grid-row-gap: 10px;
-}
-.grid_notebooks {
-    grid-template-columns: 1fr;
-    width: 50%;
-    margin: 5% 25%;
-    grid-row-gap: 10px;
-}
-.grid_perifericos {
-    grid-template-columns: 1fr;
-    width: 50%;
-    margin: 5% 25%;
-    grid-row-gap: 10px;
-}
-.footer_section {
-    display: flex;
-    justify-content: space-evenly;
-    width: 100%;
-    h2 {
-        font-size: 10px;
+    li {
+        font-size: 9px;
     }
     h3 {
+        font-size: 12px;
+    }
+    /*header*/
+    .logo {
+        width: 100px;
+    }
+    /*main*/
+    .titulo_main_index {
+        font-size: 23px;
+        text-align: center;
+        padding-top: 1.5%;
+    }
+    .titulo_main {
+        font-size: 20px;
+        text-align: center;
+        padding-top: 1.5%;
+    }
+    .titulo_sobre_nosotros {
+        text-align: start;
+        padding-top: 1%;
+    }
+    .card-title {
+        font-size: 20px;
+    }
+    .card-title_main {
+        font-size: 20px;
+    }
+    .card-text {
+        font-size: 15px;
+    }
+    .titulo_preguntas_frecuentes {
         font-size: 10px;
     }
-}
-.form {
-    display: none;
-}
-.mapa {
-    width: 75%;
-    height: 11%;
-    padding-left: 3%;
-}
-.redes {
-    width: 30%;
-}
-.titulo_preguntas_frecuentes {
-    font-size: 10px;
-}
+    /*footer*/
+    .footer_section {
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: column;
+        h2 {
+            font-size: 10px;
+        }
+        h3 {
+            font-size: 10px;
+        }
+    }
+    .form {
+        display: none;
+    }
+    .mapa {
+        display: none;
+    }
+    .aside-footer {
+        max-width: 200px;
+    }
 }
 /*Mobile M*/
 @media only screen and (min-width:375px) and (max-width: 424px) {
@@ -88,54 +73,38 @@ h3{
     h3{
         font-size: 15px;
     }
-    .menu
-    .izquierda{
-            .logo{
-                width: 60px;
-            }
-            .bienvenido {
-                font-size: 14px;
-            }
-        }
-    .titulo_main {
-        padding-left: 2%;
+    /*header*/
+    .logo{
+        width: 100px;
+    }
+    .bienvenido {
+        font-size: 14px;
+    }
+    /*main*/
+    .titulo_main_index {
+        font-size: 23px;
+        text-align: center;
         padding-top: 1.5%;
+    }
+    .titulo_main {
         font-size: 25px;
         text-align: center;
+        padding-top: 1.5%;
+    }
+    .card-title {
+        font-size: 20px;
+        .main {
+            font-size: 20px;
+        }
     }
     .card-text {
         font-size: 20px;
     }
-    .grid_main {
-        padding-bottom: 1.3%;
-    }
-    .grid_componentes {
-        grid-template-columns: 1fr;
-        width: 50%;
-        margin: 5% 25%;
-        grid-row-gap: 10px;
-    }
-    .grid_monitores {
-        grid-template-columns: 1fr;
-        width: 50%;
-        margin: 5% 25%;
-        grid-row-gap: 10px;
-    }
-    .grid_notebooks {
-        grid-template-columns: 1fr;
-        width: 50%;
-        margin: 5% 25%;
-        grid-row-gap: 10px;
-    }
-    .grid_perifericos {
-        grid-template-columns: 1fr;
-        width: 50%;
-        margin: 5% 25%;
-        grid-row-gap: 10px;
-    }
+    /*footer*/
     .footer_section {
         display: flex;
         justify-content: space-evenly;
+        flex-direction: column;
         width: 100%;
         h2 {
         font-size: 14px;
@@ -145,12 +114,10 @@ h3{
         display: none;
     }
     .mapa {
-        width: 75%;
-        height: 12%;
-        padding-left: 3%;
+        display: none;
     }
-    .redes {
-        width: 40%;
+    .aside-footer {
+        max-width: 250px;
     }
 }
 /*Mobile L*/
@@ -161,55 +128,40 @@ h3{
     h3{
         font-size: 18px;
     }
-    .menu
-    .izquierda{
-            .logo{
-                width: 70px;
-            }
-            .bienvenido {
-                font-size: 15px;
-            }
+    /*header*/
+    .logo {
+        width: 120px;
+    }
+    .bienvenido {
+        font-size: 15px;
+    }
+    /*main*/
+    .titulo_main_index {
+        font-size: 30px;
+        text-align: center;
+        padding-top: 1.5%;
+    }
+    .titulo_main {
+        font-size: 30px;
+        text-align: center;
+        padding-left: 2%;
+        padding-top: 1.5%;
+    }
+    .card-title {
+        font-size: 25px;
+        .main {
+            font-size: 25px;
         }
+    }
     .card-text {
         font-size: 25px;
     }
-    .titulo_main {
-        padding-left: 2%;
-        padding-top: 1.5%;
-        font-size: 30px;
-        text-align: center;
-    }
-    .grid_main {
-        padding-bottom: 1.3%;
-    }
-    .grid_componentes {
-        grid-template-columns: 1fr;
-        width: 50%;
-        margin: 3% 25%;
-        grid-row-gap: 10px;
-    }
-    .grid_monitores {
-        grid-template-columns: 1fr;
-        width: 50%;
-        margin: 3% 25%;
-        grid-row-gap: 10px;
-    }
-    .grid_notebooks {
-        grid-template-columns: 1fr;
-        width: 50%;
-        margin: 3% 25%;
-        grid-row-gap: 10px;
-    }
-    .grid_perifericos {
-        grid-template-columns: 1fr;
-        width: 50%;
-        margin: 3% 25%;
-        grid-row-gap: 10px;
-    }
+    /*footer*/
     .footer_section {
+        width: 100%; 
         display: flex;
         justify-content: space-evenly;
-        width: 100%; 
+        flex-direction: column;
         h2 {
         font-size: 15px;
         }
@@ -218,12 +170,10 @@ h3{
         display: none;
     }
     .mapa {
-        width: 75%;
-        height: 11%;
-        padding-left: 3%;
+        display: none;
     }
-    .redes {
-        width: 45%;
+    .aside-footer {
+        max-width: 300px;
     }
 }
 /* Tablet*/
@@ -231,27 +181,38 @@ h3{
     * {
         font-size: 15px;
     }
-    .imagen_main_destacados {
-        width: 86%;
+    /*header*/
+    .logo {
+        width: 150px;
     }
-    .menu
-    .izquierda{
-            .logo{
-                width: 80px;
-            }
-            .bienvenido {
-                font-size: 15px;
-            }
-        }
+    .bienvenido {
+        font-size: 15px;
+    }
+    /*main*/
+    .titulo_main_index {
+        font-size: 30px;
+        text-align: center;
+        padding-top: 1.5%;
+    }
     .titulo_main {
+        font-size: 30px;
+        text-align: center;
         padding-left: 2%;
         padding-top: 1.5%;
+    }
+    .card-title {
+        font-size: 25px;
+        .main {
+            font-size: 25px;
+        }
+    }
+    .card-text {
         font-size: 25px;
     }
-    .imagen_main {
-        width: 100px;
-        margin-left: 5%;
+    .grid_tablet {
+        margin: 1%;
     }
+    /*footer*/
     .footer_section {
         display: flex;
         justify-content: space-evenly;
@@ -263,12 +224,15 @@ h3{
     .form {
         display: none;
     }
-    .mapa {
-        width: 75%;
-        height: 11%;
-    }
     .redes {
         width: 45%;
+    }
+    .mapa {
+        width: 150px;
+        height: 150px;
+    }
+    .aside-footer {
+        max-width: 150px;
     }
 }
 /* Desktop */
@@ -276,14 +240,52 @@ h3{
     h1 {
         font-size: 25px;
     }
-    a{
+    a {
         font-size: 21px;
     }
     .nav-link {
         font-size: 21px;
     }
-    .imagen_main_destacados {
-        width: 86%;
+    /*main*/
+    .titulo_main_index {
+        font-size: 30px;
+        padding-top: 1.5%;
+    }
+    .titulo_main {
+        font-size: 30px;
+        text-align: center;
+        padding-left: 2%;
+        padding-top: 1.5%;
+    }
+    .card-title {
+        font-size: 25px;
+        .main {
+            font-size: 25px;
+        }
+    }
+    .card-text {
+        font-size: 25px;
+    }
+    .grid_tablet {
+        margin: 1%;
+    }
+    /*footer*/
+    .footer_section {
+        display: flex;
+        justify-content: space-evenly;
+        h2 {
+        font-size: 18px;
+    }
+}
+    .mail {
+        max-width: 160px;
+    }
+    .mapa {
+        padding: 1%;
+    }
+    .redes {
+        width: 25%;
+        padding-left: 3%;
     }
 }
 @media only screen and (min-width: 1440px) and (max-width: 2559px){
@@ -293,8 +295,15 @@ h3{
     a {
         font-size: 22px;
     }
-    .imagen_main_destacados {
-        width: 90%;
+    .titulo_main_index {
+        font-size: 40px;
+        padding-top: 1.5%;
+    }
+    .card-title {
+        font-size: 25px;
+        .main {
+            font-size: 35px;
+        }
     }
 }
 @media only screen and (min-width: 2560px) {
@@ -319,19 +328,18 @@ h3{
     a {
         font-size: 30px;
     }
+    /*header*/
+    .logo{
+        width: 250px;
+    }
+    .bienvenido {
+        font-size: 45px;
+    }
+    /*main*/
     .titulo_main {
         font-size: 40px;
     }
-    .menu
-    .izquierda{
-            .logo{
-                width: 250px;
-            }
-            .bienvenido {
-                font-size: 45px;
-            }
-        }
-    }
+    /*footer*/
     .form {
         font-size: 30px;
         .label {
@@ -343,7 +351,5 @@ h3{
         .boton {
         font-size: 20px;
         }
-    }
-    .redes {
-    width: 50%;
+}
 }
