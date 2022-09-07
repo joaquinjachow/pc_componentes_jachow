@@ -52,6 +52,11 @@ h3 {
 .main_background {
     background-color: #FFFFFF;
 }
+.titulo_main_index {
+    color: black;
+    font-size: 40px;
+    margin: 1%;
+}
 .titulo_main {
     color: black;
     font-size: 35px;
@@ -83,18 +88,13 @@ h3 {
 .card-text {
     color: #212529;
 }
-.titulo_main_index {
-    color: black;
-    font-size: 40px;
-    margin: 1%;
-}
 .main_sobre_nosotros p {
     font-family: "Segoe UI", "Open Sans", "Helvetica Neue", sans-serif;
     font-weight: bold;
     padding: 1em 1em 0 3em;
 }
 .main_sobre_nosotros h2 {
-    font-size: 40px;
+    font-size: 35px;
     padding: 1em 0 1em 1.5em;
 }
 .titulo_preguntas_frecuentes {
@@ -132,4 +132,4 @@ h3 {
 }
 
 /* aca empieza los medias querys*/
-@import "mquery.scss";
+@import "mquery"

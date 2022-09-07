@@ -14,6 +14,20 @@
         width: 100px;
     }
     /*main*/
+    .titulo_main_index {
+        font-size: 23px;
+        text-align: center;
+        padding-top: 1.5%;
+    }
+    .titulo_main {
+        font-size: 20px;
+        text-align: center;
+        padding-top: 1.5%;
+    }
+    .titulo_sobre_nosotros {
+        text-align: start;
+        padding-top: 1%;
+    }
     .card-title {
         font-size: 20px;
     }
@@ -22,11 +36,6 @@
     }
     .card-text {
         font-size: 15px;
-    }
-    .titulo_main_index {
-        font-size: 23px;
-        text-align: center;
-        padding-top: 1.5%;
     }
     .titulo_preguntas_frecuentes {
         font-size: 10px;
@@ -50,7 +59,7 @@
         display: none;
     }
     .aside-footer {
-        max-width: 300px;
+        max-width: 200px;
     }
 }
 /*Mobile M*/
@@ -66,7 +75,7 @@
     }
     /*header*/
     .logo{
-        width: 60px;
+        width: 100px;
     }
     .bienvenido {
         font-size: 14px;
@@ -74,6 +83,11 @@
     /*main*/
     .titulo_main_index {
         font-size: 23px;
+        text-align: center;
+        padding-top: 1.5%;
+    }
+    .titulo_main {
+        font-size: 25px;
         text-align: center;
         padding-top: 1.5%;
     }
@@ -85,11 +99,6 @@
     }
     .card-text {
         font-size: 20px;
-    }
-    .titulo_main {
-        font-size: 25px;
-        text-align: center;
-        padding-top: 1.5%;
     }
     /*footer*/
     .footer_section {
@@ -108,7 +117,7 @@
         display: none;
     }
     .aside-footer {
-        max-width: 300px;
+        max-width: 250px;
     }
 }
 /*Mobile L*/
@@ -121,7 +130,7 @@
     }
     /*header*/
     .logo {
-        width: 95px;
+        width: 120px;
     }
     .bienvenido {
         font-size: 15px;
@@ -132,8 +141,11 @@
         text-align: center;
         padding-top: 1.5%;
     }
-    .card-text {
-        font-size: 25px;
+    .titulo_main {
+        font-size: 30px;
+        text-align: center;
+        padding-left: 2%;
+        padding-top: 1.5%;
     }
     .card-title {
         font-size: 25px;
@@ -141,11 +153,8 @@
             font-size: 25px;
         }
     }
-    .titulo_main {
-        font-size: 30px;
-        text-align: center;
-        padding-left: 2%;
-        padding-top: 1.5%;
+    .card-text {
+        font-size: 25px;
     }
     /*footer*/
     .footer_section {
@@ -164,7 +173,7 @@
         display: none;
     }
     .aside-footer {
-        max-width: 500px;
+        max-width: 300px;
     }
 }
 /* Tablet*/
@@ -185,8 +194,11 @@
         text-align: center;
         padding-top: 1.5%;
     }
-    .card-text {
-        font-size: 25px;
+    .titulo_main {
+        font-size: 30px;
+        text-align: center;
+        padding-left: 2%;
+        padding-top: 1.5%;
     }
     .card-title {
         font-size: 25px;
@@ -194,11 +206,8 @@
             font-size: 25px;
         }
     }
-    .titulo_main {
-        font-size: 30px;
-        text-align: center;
-        padding-left: 2%;
-        padding-top: 1.5%;
+    .card-text {
+        font-size: 25px;
     }
     .grid_tablet {
         margin: 1%;
@@ -237,18 +246,10 @@
     .nav-link {
         font-size: 21px;
     }
+    /*main*/
     .titulo_main_index {
         font-size: 30px;
         padding-top: 1.5%;
-    }
-    .card-text {
-        font-size: 25px;
-    }
-    .card-title {
-        font-size: 25px;
-        .main {
-            font-size: 25px;
-        }
     }
     .titulo_main {
         font-size: 30px;
@@ -256,9 +257,36 @@
         padding-left: 2%;
         padding-top: 1.5%;
     }
+    .card-title {
+        font-size: 25px;
+        .main {
+            font-size: 25px;
+        }
+    }
+    .card-text {
+        font-size: 25px;
+    }
     .grid_tablet {
         margin: 1%;
+    }
+    /*footer*/
+    .footer_section {
+        display: flex;
+        justify-content: space-evenly;
+        h2 {
+        font-size: 18px;
+    }
 }
+    .mail {
+        max-width: 160px;
+    }
+    .mapa {
+        padding: 1%;
+    }
+    .redes {
+        width: 25%;
+        padding-left: 3%;
+    }
 }
 @media only screen and (min-width: 1440px) and (max-width: 2559px){
     * {
@@ -300,15 +328,18 @@
     a {
         font-size: 30px;
     }
-    .titulo_main {
-        font-size: 40px;
-    }
+    /*header*/
     .logo{
         width: 250px;
     }
     .bienvenido {
         font-size: 45px;
     }
+    /*main*/
+    .titulo_main {
+        font-size: 40px;
+    }
+    /*footer*/
     .form {
         font-size: 30px;
         .label {
