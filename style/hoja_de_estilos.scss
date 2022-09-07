@@ -3,7 +3,9 @@ $color: azure;
     padding: 0;
     margin: 0;
 }
+
 /* General */
+
 html,
 * {
     @include general;
@@ -18,9 +20,6 @@ a {
     color: $color !important; 
     text-decoration: none;
 }
-h2 {
-    font-size: 20px;
-}
 a:hover {
     color: #C6C6C6;
     transform: scale(1.1);
@@ -29,12 +28,13 @@ body {
     background-color: #212529;
     color: $color;
 }
-.titulo_contacto {
-    display: none;
+h2 {
+    font-size: 20px;
 }
-.mapa_contacto {
-    display: none;
+h3 {
+    font-size: 26px;
 }
+
 /* header*/
 
 .logo {
@@ -42,102 +42,51 @@ body {
     padding-left: 10%;
     padding-bottom: 0.7%;
 }
-.bienvenido {
-    font-size: 30px;
-    padding-left: 3%;
-}
-.menu_derecha {
-    .cart {
-        width: 35px;
-        height: 35px;
-    }
+.cart {
+    width: 35px;
+    height: 35px;
 }
 
 /* termina header empieza el main*/
+
+.main_background {
+    background-color: #FFFFFF;
+}
 .titulo_main {
+    color: black;
+    font-size: 35px;
     padding-left: 1%;
     margin-top: 1%;
+    padding-top: 1%;
 }
-.grid_main {
-    margin-bottom: 1.3%;
+.contenedor_main {
+    justify-content: space-between;
+    padding: 1%;
 }
-.grid_border_main {
-    border: 2px solid $color;
+.card-title {
+    color: #969696;
+    .main {
+        color: black;
+        font-size: 35px;
+        justify-content: center;
+        align-items: center;
+    }
 }
-.imagen_main_destacados {
-    width: 100%;
+.card .cardbody {
+    color: #F6F6F6;
 }
-.titulo_componentes {
+.card_main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card-text {
+    color: #212529;
+}
+.titulo_main_index {
+    color: black;
     font-size: 40px;
     margin: 1%;
-}
-.contenedor_componentes {
-    column-gap: 4%;
-    margin: 1%;
-}
-.grid_componentes {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    grid-column-gap: 3%;
-    margin: 1%;
-    margin-bottom: 7%;
-    .imagen_componentes {
-        width: 100%;
-    }
-    .grid_border_componentes {
-        border: 2px solid $color;
-    }
-}
-.titulo_monitores {
-    margin: 1%;
-    margin-top: 8%;
-}
-.grid_monitores {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    grid-column-gap: 3%;
-    margin: 1%;
-    margin-bottom: 7%;
-    .imagen_monitores {
-        width: 100%;
-    }
-    .grid_border_monitores {
-        border: 2px solid $color;
-    }
-}
-.titulo_notebooks {
-    margin: 1%;
-    margin-top: 8%;
-}
-.grid_notebooks {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    grid-column-gap: 3%;
-    margin: 1%;
-    margin-bottom: 7%;
-    .imagen_notebooks{
-        width: 100%;
-    }
-    .grid_border_notebooks {
-        border: 2px solid $color;
-    }
-}
-.titulo_perifericos {
-    margin: 1%;
-    margin-top: 8%;
-}
-.grid_perifericos {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    grid-column-gap: 3%;
-    margin: 1%;
-    margin-bottom: 7%;
-    .imagen_perifericos {
-        width: 100%;
-    }
-    .grid_border_perifericos {
-        border: 2px solid $color;
-    }
 }
 .main_sobre_nosotros p {
     font-family: "Segoe UI", "Open Sans", "Helvetica Neue", sans-serif;
@@ -148,34 +97,25 @@ body {
     font-size: 40px;
     padding: 1em 0 1em 1.5em;
 }
-h3 {
-    font-size: 26px;
+.titulo_preguntas_frecuentes {
+    font-size: 28px;
+    text-align: center;
+}
+.accordion {
+    padding: 0 2%;
+    padding-bottom: 1%;
 }
 .lista_preguntas {
     list-style-type: disc;
 }
-.main_componentes {
-background-color: #FFFFFF;
-}
-.card .cardbody {
-    color: #F6F6F6;
-}
-.card-title {
-    color: #969696;
-}
-.card-text {
-    color: #212529;
-}
-.titulo_preguntas_frecuentes {
-    text-align: center;
-    font-size: 28px;
-}
+
 /* comienzo footer*/
+
 .menu-subfooter {
     background-color: #30363c;
+    font-size: 18px;
     display: flex;
     justify-content: space-around;
-    font-size: 18px;
     padding: 0.7%;
 }
 .footer_section {
@@ -186,8 +126,10 @@ background-color: #FFFFFF;
 .boton {
     margin-left: 18%;
 }
-.main_componentes {
-    display: flex
+.redes {
+    display: flex;
+    width: 30%;
 }
+
 /* aca empieza los medias querys*/
 @import "mquery.scss";
