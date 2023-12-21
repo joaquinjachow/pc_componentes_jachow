@@ -31,13 +31,14 @@ h3 {
 
 /* header*/
 .logo {
-  width: 210px;
-  padding-left: 10%;
+  width: 190px;
+  padding-left: 20%;
   padding-bottom: 0.7%; }
 
 .cart {
-  width: 35px;
-  height: 35px; }
+  width: 33px;
+  height: 33px; 
+}
 
 /* termina header empieza el main*/
 .main_background {
@@ -45,12 +46,15 @@ h3 {
 
 .titulo_main_index {
   color: black;
-  font-size: 40px;
-  margin: 1%; }
+  font-size: 44px;
+  font-weight: 500;
+  margin: 1%; 
+  text-align: center;
+}
 
 .titulo_main {
   color: black;
-  font-size: 35px;
+  font-size: 40px;
   padding-left: 1%;
   margin-top: 1%;
   padding-top: 1%; }
@@ -68,7 +72,8 @@ h3 {
     align-items: center; }
 
 .card .cardbody {
-  color: #F6F6F6; }
+  color: #F6F6F6;
+}
 
 .card_main {
   display: flex;
@@ -78,14 +83,27 @@ h3 {
 .card-text {
   color: #212529; }
 
+.card-img-top{
+  padding: 5%;
+}
+
+.card-img-main{
+  width: 100%;
+}
+.card-main{
+  justify-content: center;
+  border: none;
+}
+
 .main_sobre_nosotros p {
   font-family: "Segoe UI", "Open Sans", "Helvetica Neue", sans-serif;
-  font-weight: bold;
-  padding: 1em 1em 0 3em; }
+  font-weight: 500;
+  padding-left: 4%; 
+}
 
 .main_sobre_nosotros h2 {
   font-size: 35px;
-  padding: 1em 0 1em 1.5em; }
+  padding: 1em 0 0.5em 1.5em; }
 
 .titulo_preguntas_frecuentes {
   font-size: 28px;
@@ -94,6 +112,10 @@ h3 {
 .accordion {
   padding: 0 2%;
   padding-bottom: 1%; }
+
+  .accordion-body{
+    padding-left: 2%;
+  }
 
 .lista_preguntas {
   list-style-type: disc; }
@@ -302,16 +324,21 @@ h3 {
   a {
     font-size: 21px; }
   .nav-link {
-    font-size: 21px; }
+    font-size: 22px;
+    font-weight: 500;
+  }
   /*main*/
   .titulo_main_index {
     font-size: 30px;
     padding-top: 1.5%; }
   .titulo_main {
-    font-size: 30px;
+    font-size: 40px;
     text-align: center;
     padding-left: 2%;
     padding-top: 1.5%; }
+  .titulo-contacto{
+    font-size: 26px;
+  }
   .card-title {
     font-size: 25px; }
     .card-title .main {
