@@ -128,17 +128,37 @@ h3 {
   justify-content: space-around;
   padding: 0.7%; }
 
-.footer_section {
+.footer-container{
   display: flex;
+  flex: 1;
   justify-content: space-around;
+}
+
+.footer_section {
   padding: 0.7%; }
 
-.boton {
-  margin-left: 18%; }
+.title-mapa{
+  text-align: center;
+}
 
-.redes {
+.form-footer{
   display: flex;
-  width: 30%; }
+  flex-direction: column;
+}
+
+.form{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.redes-container{
+  align-items: center;
+}
+
+.copyright{
+  padding: 1%;
+}
 
 /* aca empieza los medias querys*/
 /*Mobile S*/
