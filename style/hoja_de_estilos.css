@@ -172,6 +172,10 @@ h3 {
   /*header*/
   .logo {
     width: 100px; }
+  .cart {
+    width: 20px;
+    height: 20px; 
+  }
   /*main*/
   .titulo_main_index {
     font-size: 23px;
@@ -193,20 +197,37 @@ h3 {
   .titulo_preguntas_frecuentes {
     font-size: 10px; }
   /*footer*/
-  .footer_section {
-    display: flex;
-    justify-content: space-evenly;
-    flex-direction: column; }
+  .footer-container, .footer_section{
+    text-align: center;
+  }
     .footer_section h2 {
       font-size: 10px; }
     .footer_section h3 {
       font-size: 10px; }
   .form {
     display: none; }
+  .title-mapa {
+    display: none; }
   .mapa {
     display: none; }
-  .aside-footer {
-    max-width: 200px; } }
+  .info{
+    padding-top: 10px;
+    width: 50%;
+  }
+  .aside-footer{
+    width: 50%;
+    text-align: center;
+  }
+  .redes-container{
+    width: 50%;
+    display: flex;
+    margin: 0 auto;
+  }
+  .redes{
+    width: 80%;
+    height: 70px;
+  }
+ }
 
 /*Mobile M*/
 @media only screen and (min-width: 375px) and (max-width: 424px) {
@@ -219,6 +240,10 @@ h3 {
   /*header*/
   .logo {
     width: 100px; }
+  .cart {
+    width: 20px;
+    height: 20px; 
+  }
   .bienvenido {
     font-size: 14px; }
   /*main*/
@@ -237,19 +262,36 @@ h3 {
   .card-text {
     font-size: 20px; }
   /*footer*/
-  .footer_section {
-    display: flex;
-    justify-content: space-evenly;
-    flex-direction: column;
-    width: 100%; }
+  .footer-container, .footer_section{
+    text-align: center;
+  }
     .footer_section h2 {
       font-size: 14px; }
   .form {
     display: none; }
+  .title-mapa {
+    display: none; }
   .mapa {
     display: none; }
-  .aside-footer {
-    max-width: 250px; } }
+    .info{
+      padding-top: 10px;
+      width: 50%;
+    }
+    .aside-footer{
+      width: 50%;
+      text-align: center;
+      padding-top: 10px;
+    }
+    .redes-container{
+      width: 50%;
+      display: flex;
+      margin: 0 auto;
+    }
+    .redes{
+      width: 80%;
+      height: 70px;
+    } 
+  }
 
 /*Mobile L*/
 @media only screen and (min-width: 425px) and (max-width: 767px) {
@@ -260,6 +302,10 @@ h3 {
   /*header*/
   .logo {
     width: 120px; }
+  .cart {
+    width: 25px;
+    height: 25px; 
+  }
   .bienvenido {
     font-size: 15px; }
   /*main*/
@@ -279,19 +325,35 @@ h3 {
   .card-text {
     font-size: 25px; }
   /*footer*/
-  .footer_section {
-    width: 100%;
-    display: flex;
-    justify-content: space-evenly;
-    flex-direction: column; }
+  .footer-container, .footer_section{
+    text-align: center;
+  }
     .footer_section h2 {
       font-size: 15px; }
   .form {
     display: none; }
+  .title-mapa {
+    display: none; }
   .mapa {
     display: none; }
-  .aside-footer {
-    max-width: 300px; } }
+    .info{
+      padding-top: 10px;
+      width: 50%;
+    }
+    .aside-footer{
+      width: 50%;
+      padding-top: 10px;
+    }
+    .redes-container{
+      width: 50%;
+      display: flex;
+      margin: 0 auto;
+    }
+    .redes{
+      width: 85%;
+      height: 70px;
+    } 
+  }
 
 /* Tablet*/
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
@@ -300,6 +362,10 @@ h3 {
   /*header*/
   .logo {
     width: 150px; }
+  .cart {
+    width: 20px;
+    height: 20px; 
+  }
   .bienvenido {
     font-size: 15px; }
   /*main*/
@@ -321,10 +387,9 @@ h3 {
   .grid_tablet {
     margin: 1%; }
   /*footer*/
-  .footer_section {
-    display: flex;
-    justify-content: space-evenly;
-    width: 100%; }
+  .footer-container, .footer_section{
+    text-align: center;
+  }
     .footer_section h2 {
       font-size: 15px; }
   .form {
@@ -334,8 +399,16 @@ h3 {
   .mapa {
     width: 150px;
     height: 150px; }
-  .aside-footer {
-    max-width: 150px; } }
+    .redes-container{
+      width: 50%;
+      display: flex;
+      margin: 0 auto;
+      gap: 10px;
+    }
+    .redes{
+      width: 90%;
+    } 
+  }
 
 /* Desktop */
 @media only screen and (min-width: 1024px) {
