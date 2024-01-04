@@ -20,9 +20,14 @@
             <nav class="navbar navbar-expand-lg bg-dark">
                 <a class="navbar-brand" href="../index.html">
                     <img class="logo" href="../index.html" src="../photos/logo-pccomponentes.webp" alt="logo-pccomponentes" title="logo-pccomponentes">
-                </a>
+                </a>                
+                <!-- Button -->
+                <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <!-- Fin button -->
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 container d-flex justify-content-around">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 container d-flex justify-content-around align-items-center">
                         <li class="nav-item">
                             <a class="nav-link" href="../index.html">Inicio</a>
                         </li>
@@ -49,8 +54,10 @@
                             <a class="nav-link" href="perifericos.html">Periféricos</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link"><img class="cart" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAARhJREFUSEvNlOExBEEQhd8XASGcCJABEZABIkAGROAycCJABkTgRIAIEMFTrXanVt3tzcytVfpvz/Q3Pa9fo5GDkevr7wC23XTzIWkGnP9Gd6mDDqCtuw88DIUsfJHtM0lXku6BwzEAm5Lem8JbwOsQyFKRbc8kHQ0oPAd2434fYEfS0wDAGzDpBUTC9lzS9pqQS+AiBziWdL0mIGm30mi2wxMblZBHYK+9kwNMJZ1WAk6AGJLvyAFCqJcKwKekCRCd5wGN2HeSDgohN0BolyK77GyHm28LAQvrJQuoGNlnIPzzI4oAha9feqwIYDtME9MUfxzLMMWqXHaK2iqdVZ5WQEmuBhB+iOmYtiugA+jNFQNG1+BfA74AyHNmGeJOll4AAAAASUVORK5CYII="/>0</a>
-                        </li>
+                            <a href="#">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="#f4e7e7" viewBox="0 0 256 256"><path d="M222.14,58.87A8,8,0,0,0,216,56H54.68L49.79,29.14A16,16,0,0,0,34.05,16H16a8,8,0,0,0,0,16h18L59.56,172.29a24,24,0,0,0,5.33,11.27,28,28,0,1,0,44.4,8.44h45.42A27.75,27.75,0,0,0,152,204a28,28,0,1,0,28-28H83.17a8,8,0,0,1-7.87-6.57L72.13,152h116a24,24,0,0,0,23.61-19.71l12.16-66.86A8,8,0,0,0,222.14,58.87ZM96,204a12,12,0,1,1-12-12A12,12,0,0,1,96,204Zm96,0a12,12,0,1,1-12-12A12,12,0,0,1,192,204Zm4-74.57A8,8,0,0,1,188.1,136H69.22L57.59,72H206.41Z"></path></svg>
+                            </a>
+                        </li>  
                     </ul>
                 </div>
             </nav>
@@ -103,59 +110,65 @@
         <footer>
             <section>
                 <div class="menu-subfooter">
-                    <a href="contacto.html">Contacto</a>
-                    <a href="sobre_nosotros.html">Sobre Nosotros</a>
-                    <a href="preguntas_frecuentes.html">Preguntas Frecuentes</a>
+                    <a href="./contacto.html">Contacto</a>
+                    <a href="./sobre_nosotros.html">Sobre Nosotros</a>
+                    <a href="./preguntas_frecuentes.html">Preguntas Frecuentes</a>
                 </div>
             </section>
-            <section class="footer_section">
-                <form class="form">
-                    <ul class="form">
-                        <li><h2>Recibí nuestras novedades</h2></li>
-                        <div class="row mb-2">
-                            <label for="colFormLabelSm" class="col-sm-2 col-form-label col-form-label-sm label">Email</label>
-                            <div class="col-sm-10">
+            <div class="footer_section">
+                <div class="mt-2 footer-container">
+                    <form class="form">
+                        <ul class="form">
+                            <li><h2>Recibí nuestras novedades</h2></li>
+                            <div class="form-footer mb-2">
+                                <label for="colFormLabelSm" class="col-sm-2 col-form-label col-form-label-sm label">Email:</label>
                                 <input type="Email" class="form-control form-control-sm mail" id="colFormLabelSm" placeholder="ejemplo@gmail.com">
                             </div>
+                            <button type="button" class="btn btn-secondary btn-sm">Suscribirse</button>
+                        </ul>
+                    </form>
+                    <div class="info">
+                        <ul>
+                            <li><h2>Atención al cliente</h2></li>
+                            <li><span>8888-888-8888</span></li>
+                            <li><span>ventas@computacion.com</span></li>
+                            <li><span>Lunes a viernes de 8 a 14hs</span></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <ul>
+                            <li><h2 class="title-mapa">¿Dónde nos ubicamos?</h2></li>
+                            <li><iframe class="mapa" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1703.7038815761232!2d-64.2588445!3d-31.3477251!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94329ea69884f1b9%3A0x7ecc6d2199f921c!2spccore.com.ar!5e0!3m2!1ses-419!2sar!4v1660655090089!5m2!1ses-419!2sar" width="300" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></li>
+                        </ul>
+                    </div>
+                    <aside class="aside-footer">
+                        <h2>Redes Sociales</h2>
+                        <div class="redes-container">
+                            <a href="https://www.facebook.com" target="_blank">
+                                <svg class="redes" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="120" height="120">
+                                    <path d="M504 256C504 119 393 8 256 8S8 119 8 256c0 123.78 90.69 226.38 209.25 245V327.69h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48 27.14 0 55.52 4.84 55.52 4.84v61h-31.28c-30.8 0-40.41 19.12-40.41 38.73V256h68.78l-11 71.69h-57.78V501C413.31 482.38 504 379.78 504 256z"/>
+                                </svg>
+                            </a>
+                            <a href="https://www.instagram.com" target="_blank">
+                                <svg class="redes" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" width="120" height="120">
+                                    <path d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"/>
+                                </svg>
+                            </a>
                         </div>
-                        <button type="button" class="btn btn-secondary btn-sm boton">Suscribirse</button>
-                    </ul>
-                </form>
-                <div>
-                    <ul>
-                        <li><h2>Atención al cliente</h2></li>
-                        <li><p>8888-888-8888</p></li>
-                        <li><p>ventas@computacion.com</p></li>
-                        <li><p>Lunes a viernes de 8 a 14hs</p></li>
-                    </ul>
+                    </aside>
                 </div>
-                <div>
-                    <ul>
-                        <li><h2>¿Dónde nos ubicamos?</h2></li>
-                        <li><iframe class="mapa" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1703.7038815761232!2d-64.2588445!3d-31.3477251!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94329ea69884f1b9%3A0x7ecc6d2199f921c!2spccore.com.ar!5e0!3m2!1ses-419!2sar!4v1660655090089!5m2!1ses-419!2sar" width="300" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></li>
-                    </ul>
-                </div>
-                <aside class="aside-footer">
-                    <h2>Redes Sociales</h2>
-                    <a href="https://www.facebook.com" target="_blank">
-                        <svg class="redes" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M504 256C504 119 393 8 256 8S8 119 8 256c0 123.78 90.69 226.38 209.25 245V327.69h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48 27.14 0 55.52 4.84 55.52 4.84v61h-31.28c-30.8 0-40.41 19.12-40.41 38.73V256h68.78l-11 71.69h-57.78V501C413.31 482.38 504 379.78 504 256z"/></svg>
-                    </a>
-                    <a href="https://www.instagram.com" target="_blank">
-                        <svg class="redes" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"/></svg>
-                    </a>
-                </aside>
-            </section>
+            </div>
             <aside>
                 <div>
                     <small class="copyright">Copyright Joaquin Jachow</small>
                 </div>
             </aside>
-            </footer>
-            <!-- JavaScript Bundle with Popper -->
-            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
-            <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-            <script>
-                AOS.init();
-            </script>
-        </body>
-    </html>
+        </footer>
+        <!-- JavaScript Bundle with Popper -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+            AOS.init();
+        </script>
+    </body>
+</html>
